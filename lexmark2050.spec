@@ -6,6 +6,7 @@ Release:	1
 Group:		Applications/Printing
 License:	GPL
 Source0:	http://www.prato.linux.it/~mnencia/%{name}/c2050-%{version}.tar.gz
+# Source0-md5:	d6bc88ede5887c6e2fd8829c23b255fa
 URL:		http://www.prato.linux.it/~mnencia/lexmark2050
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
