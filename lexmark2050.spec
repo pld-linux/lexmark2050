@@ -30,12 +30,10 @@ install -d $RPM_BUILD_ROOT%{_libdir}/lpfilters
 install c2050 $RPM_BUILD_ROOT%{_libdir}/lpfilters/pbm2lexmark2050
 install ps2lexmark $RPM_BUILD_ROOT%{_libdir}/lpfilters
 
-gzip -9nf README
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc README
 %attr(755,root,root) %{_libdir}/lpfilters/*
