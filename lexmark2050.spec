@@ -1,7 +1,7 @@
 Summary:	PBM to Lexmark2050 printer converter.
 Summary(pl):	Konwerter z formatu PBM do formatu drukarki Lexmark2050.
 Name:		lexmark2050
-Version:	0.1
+Version:	0.3
 Release:	1
 Group:		Applications/Printing
 Group(de):	Applikationen/Drucken
