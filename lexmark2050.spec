@@ -21,7 +21,7 @@ Lexmark2050, który umo¿liwia wykorzystanie tej drukarki pod Linuxem.
 %setup -q -n c2050-%{version}
 
 %build
-%{__make} CFLAGS="%{rpmcflags}" 
+%{__make} CFLAGS="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
