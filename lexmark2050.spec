@@ -1,5 +1,5 @@
-Summary:	PBM to Lexmark2050 printer converter.
-Summary(pl):	Konwerter z formatu PBM do formatu drukarki Lexmark2050.
+Summary:	PBM to Lexmark2050 printer converter
+Summary(pl):	Konwerter z formatu PBM do formatu drukarki Lexmark2050
 Name:		lexmark2050
 Version:	0.3
 Release:	1
@@ -23,7 +23,7 @@ Lexmark2050, który umo¿liwia wykorzystanie tej drukarki pod Linuxem.
 %setup -q -n c2050-%{version}
 
 %build
-%{__make} CFLAGS="$RPM_OPT_FLAGS" 
+%{__make} CFLAGS="%{rpmcflags}" 
 
 %install
 rm -rf $RPM_BUILD_ROOT
