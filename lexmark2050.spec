@@ -21,7 +21,6 @@ Lexmark2050, który umo¿liwia wykorzystanie tej drukarki pod Linuxem.
 
 %prep
 %setup -q -n c2050-%{version}
-#%patch0 -p1
 
 %build
 %{__make} CFLAGS="$RPM_OPT_FLAGS" 
@@ -30,8 +29,8 @@ Lexmark2050, który umo¿liwia wykorzystanie tej drukarki pod Linuxem.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_libdir}/lpfilters
 
-install c2050 $RPM_BUILD_ROOT%{_libdir}/pbm2lexmark2050
-install ps2lexmark $RPM_BUILD_ROOT%{_libdir}
+install c2050 $RPM_BUILD_ROOT%{_libdir}/lpfilters/pbm2lexmark2050
+install ps2lexmark $RPM_BUILD_ROOT%{_libdir}/lpfilters
 
 gzip -9nf README
 
