@@ -16,7 +16,7 @@ that allows to use this printer under Linux.
 
 %description -l pl
 Ten pakiet zawiera konwerter z formatu PBM na format drukarki
-Lexmark2050, który umo¿liwia wykorzystanie tej drukarki pod Linuxem.
+Lexmark2050, który umo¿liwia wykorzystanie tej drukarki pod Linuksem.
 
 %prep
 %setup -q -n c2050-%{version}
