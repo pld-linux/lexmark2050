@@ -4,8 +4,6 @@ Name:		lexmark2050
 Version:	0.3
 Release:	1
 Group:		Applications/Printing
-Group(de):	Applikationen/Drucken
-Group(pl):	Aplikacje/Drukowanie
 License:	GPL
 Source0:	http://www.prato.linux.it/~mnencia/%{name}/c2050-%{version}.tar.gz
 URL:		http://www.prato.linux.it/~mnencia/lexmark2050
